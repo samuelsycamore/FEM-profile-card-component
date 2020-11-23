@@ -6,12 +6,13 @@ font-family: 'Kumbh Sans', sans-serif;
 font-size: 62.5%;
 color: hsl(0, 0%, 59%);
 line-height: 0.5rem;
+letter-spacing: 0.05rem;
 }
 
 h1, h2{
   color: hsl(229, 23%, 23%);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 h3, h4{
@@ -19,7 +20,7 @@ h3, h4{
 }
 
 h3{
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 h4{
@@ -28,6 +29,7 @@ h4{
 
 .name > h1, .name > h3{
   display: inline;
+  margin: auto 3px;
 }
 
 .container{
@@ -37,9 +39,9 @@ h4{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 400px;
-  min-width: 300px;
+  max-width: 350px;
   max-height: 100%;
+  margin: 10% auto;
 }
 
 .top{
@@ -68,10 +70,15 @@ h4{
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  border-top: 1px solid lightgray;
+  padding: 20px 0;
 }
 
 .deets{
-  border: 1px solid red;
   text-align: center;
   height: 70px;
+}
+
+.spreadem{
+  letter-spacing: 0.1rem;
 }
